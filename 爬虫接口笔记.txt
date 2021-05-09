@@ -1,0 +1,6 @@
+1.登录流程获取
+1.1请求登录接口获取到返回 1036   没有验证码
+https://account.hpool.com/api/user/dologin
+1.2获取验证码session
+https://account.hpool.com/api/user/requestsession
+2.Cookie

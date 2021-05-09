@@ -1,0 +1,4 @@
+{
+  "api_url":"http://www.chia.com/notify/p_disk/index.html",/*api地址*/
+  "device_id":"94"/*设备id*/
+}

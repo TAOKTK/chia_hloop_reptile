@@ -51,6 +51,7 @@ def main():
             #将绘图文件复制到远程
             if remote_enable:
                 # 检查scp进程
+
                 for p in scp_processes:
                     code = p.poll()
                     if code is not None:

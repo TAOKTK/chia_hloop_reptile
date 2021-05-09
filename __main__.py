@@ -30,6 +30,7 @@ class ChiaStartUp():
                 #请求任务(每分钟一次)
                 my_task = self.GetApi({"action":"get_task"})
                 print(my_task)
+
                 # 没有任务
                 if my_task['code'] != 0:
                     # 任务为空拦截
